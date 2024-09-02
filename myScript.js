@@ -4,14 +4,13 @@ const aboutUsButton = document.querySelector('button:nth-child(2)');
 const aboutUsDiv = document.querySelector('.about-us');
 
 const servicesButton = document.querySelector('button:nth-child(3)'); 
-const servicesSection = document.querySelector('.Services'); // Changed to lowercase
+const servicesSection = document.querySelector('.Services');
 
 const whyUsButton = document.querySelector('button:nth-child(4)'); 
-const whyUsSection = document.querySelector('.Why-us'); // Changed to lowercase and hyphenated
+const whyUsSection = document.querySelector('.Why-us'); 
 
 const workTogetherButton = document.querySelector('button:nth-child(5)'); 
-const workTogetherSection = document.querySelector('.work-together'); // Changed to lowercase and hyphenated
-
+const workTogetherSection = document.querySelector('.work-together'); 
 const sidebarButtons = document.querySelectorAll('.sidebar button');
 let delay = 0;
 sidebarButtons.forEach((button) => {
