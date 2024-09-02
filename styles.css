@@ -27,7 +27,7 @@ body{
     font-family: "Nanum Myeongjo", serif;
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 7s steps(40) forwards;
+    animation: typing 3s steps(40) forwards;
 }
 
 @keyframes typing {
